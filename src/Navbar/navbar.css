@@ -1,14 +1,16 @@
-nav {
-    background-color:coral;
-    height:75px;
-}
-nav + aside{
-    float:right;
-    width:200px;
-    height:250px; 
-    background-color:tan;
-}
-.section{
-    background-color:grey;
-    height:75px;
-}
+.table {
+    display: table; 
+    width: 100%; 
+    border-spacing: 10px 10px; 
+  } 
+  
+  .cell1{
+    display: table-cell; 
+    padding: 10px;
+    background-color: blueviolet; 
+  }
+  .cell2{
+    display: table-cell; 
+    padding: 10px;
+    background-color:hotpink; 
+  }
