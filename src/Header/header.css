@@ -1,0 +1,14 @@
+.header{
+    background-color: darkkhaki;
+    height:100px;
+    
+    text-align: center;
+    text-decoration: none;
+    text-decoration-style: none;
+}
+.prezent>a{
+    float: left;
+     width: 20%;
+   text-decoration-style: none;
+   text-decoration: none;
+}

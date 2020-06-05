@@ -1,0 +1,14 @@
+nav {
+    background-color:coral;
+    height:75px;
+}
+nav + aside{
+    float:right;
+    width:200px;
+    height:250px; 
+    background-color:tan;
+}
+.section{
+    background-color:grey;
+    height:75px;
+}
