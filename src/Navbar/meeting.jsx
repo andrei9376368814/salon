@@ -9,5 +9,5 @@ const Meeting=()=>{
         <button>запись</button>
     </div>
     )
-};
+}
 export default Meeting;
