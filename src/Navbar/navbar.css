@@ -7,7 +7,7 @@
   .cell1{
     display: table-cell; 
     padding: 10px;
-    background-color: blueviolet; 
+    background-image: url(https://i1.photo.2gis.com/images/branch/32/4503599631775131_2bac.jpg);
   }
   .cell2{
     display: table-cell; 
@@ -16,3 +16,6 @@
     width: 300px;
     min-height: 200px; 
   }
+.contenier{
+display:ruby-text;
+}
