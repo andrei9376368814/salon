@@ -1,12 +1,18 @@
 import React from 'react';
-import Table from './tables';
+import Table from '../Table/table';
 
 
 
 
 const Navbar=()=>{
     return(
-    <Table/>
+   <div className="section"> 
+        <section>
+             <Table/>
+         </section>
+        <section></section>
+        <section></section>
+    </div>
 ) 
 }
 
