@@ -1,4 +1,5 @@
 import React from 'react';
+import Nails from '../Nails/nails';
 import Table from '../Table/table';
 
 
@@ -10,7 +11,9 @@ const Navbar=()=>{
         <section>
              <Table/>
          </section>
-        <section></section>
+        <section>
+             <Nails/>
+        </section>
         <section></section>
     </div>
 ) 
