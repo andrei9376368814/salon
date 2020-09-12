@@ -1,0 +1,58 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing:border-box;
+}
+.wrapper{
+    max-width: 500px;
+    margin: 0 auto;
+    font-family: Arial;
+}
+.btn{
+    display: block;
+    width: 220px;
+    text-align: center;
+    text-transform: uppercase;
+    color:red;
+    border-color:1px solid darkcyan;
+    padding: 15px 0;
+    margin: 20px auto;
+    cursor: pointer;
+}
+.popup{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    background-color: darkcyan;
+    color: white;
+    padding: 30px;
+    position: relative;
+    transition: .5s all;
+    top: -999px;
+}
+.popup input{
+    display: block;
+    width: 200px;
+    border: none;
+    height: 25px;
+    line-height: 25px;
+    margin: 10px 0;
+}
+.submit{
+    background-color: mediumblue;
+    cursor: pointer;
+}
+#modal{
+    display: none;
+}
+#modal:checked~.popup{
+    top: 0;
+}
+.close{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    transform: rotate(45deg);
+    font-size: 24px;
+    cursor: pointer;
+}

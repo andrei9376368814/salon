@@ -1,0 +1,30 @@
+.footer{
+    background-color: darkkhaki;
+    height:100px;
+    
+    text-align: center;
+    text-decoration: none;
+    text-decoration-style: none;
+}
+a{
+    display: inline-block;
+    margin: 40px;
+    width: 10%;
+    background-color: darkcyan;
+    color: white;
+    padding: 30px;
+    position: relative;
+    transition: .5s all;
+    
+}
+a.button {
+    color: #fff; 
+    text-decoration: none;
+    user-select: none; 
+    background:darkcyan; 
+    padding: .7em 1.5em; 
+    outline: none; 
+  } 
+  a.button:hover { background: rgb(232,95,76); } 
+  a.button:active { background: rgb(152,15,0); } 
+  

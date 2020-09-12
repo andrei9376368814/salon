@@ -1,24 +1,19 @@
-
 import React from 'react';
 import './header.css';
-
-
-
+import Popup from '../Popup/popup';
 const Header=()=>{
     return(
-
-	 <header className='header'> 
+    <div className="header"> 
         <h1>Парикмахерский салон Образ</h1>
-             <div className="prezent"> 
-                    <a href="#">Мастера</a>
-                    <a href="#">Прически</a>
-                    <a href="#">Мастера маникюра</a>
-                    <a href="#">Средства ухода</a>
-                    <a href="#">Вход</a>
-             </div>
-           
-        </header>
-        
+        <div className="prezentc">
+            <a href="#" className="button">мастера</a>
+            <a href="#" className="button">прически</a>
+            <a href="#" className="button">маникюр</a>
+            <a href="#" className="button">косметика</a>
+            
+            <Popup/>
+        </div>
+    </div>
     )
 }
 export default Header;

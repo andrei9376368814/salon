@@ -1,12 +1,12 @@
 .header{
     background-color: darkkhaki;
-    height:100px;
+    height:200px;
     
     text-align: center;
     text-decoration: none;
     text-decoration-style: none;
 }
-.prezent>a{
+.prezentc>a{
     float: left;
      width: 20%;
    text-decoration-style: none;
